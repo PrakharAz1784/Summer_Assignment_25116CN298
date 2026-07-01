@@ -11,7 +11,7 @@ int main(){
 
     while(n>0)
     {
-        rem=n/10;
+        rem=n%10;
         sum=sum+rem;
         n=n/10;
     }
